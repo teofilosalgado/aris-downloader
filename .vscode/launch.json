@@ -8,7 +8,7 @@
             "name": "Python: traverse.py",
             "type": "python",
             "request": "launch",
-            "program": "src/main.py",
+            "program": "src/traverse.py",
             "console": "integratedTerminal",
             "args": [
                 "",
