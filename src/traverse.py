@@ -32,7 +32,7 @@ def main():
         "password",
         metavar="password",
         type=str,
-        help="User authentication name.",
+        help="User authentication password.",
     )
     parser.add_argument(
         "item_url",
