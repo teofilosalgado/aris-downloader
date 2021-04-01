@@ -29,6 +29,17 @@ The execution of this tool can be divided into two steps: traversing and downloa
   - `item_title`
   Item title. You can copy it from your browser.
 
+  As an example:
+  ```
+  traverse.py 
+    "https://modeling.domain.tenant.com" 
+    "My TOM Database" 
+    "My user" 
+    "My password" 
+    "c.group.My TOM Database.9VXcoVbREeoGPAANOirxQA.-1" 
+    "Item Name"
+  ```
+
   After that, you will found an SQLite database in the `output` folder, inside the cloned repository. This database contains all the visited models and pages in a tree structure made by `node` and `edge` tables.
   
 

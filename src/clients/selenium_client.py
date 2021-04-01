@@ -46,7 +46,7 @@ class SeleniumClient:
 
         # Initialize driver options and create a brand new temp profile
         options: Options = Options()
-        options.headless = False
+        options.headless = True
         profile: FirefoxProfile = FirefoxProfile()
         profile.set_preference("security.default_personal_cert", "Select Automatically")
         self.driver: WebDriver = webdriver.Firefox(
