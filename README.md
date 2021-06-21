@@ -1,8 +1,6 @@
 # Aris Downloader
 An automated solution to download ARIS models using Selenium. 
-
-## What it does?
-This script collection was intended to traverse entire ARIS databases downloading all model files in a single execution, saving a lot of time.
+This script collection was intended to traverse entire ARIS databases downloading all model files in a single execution, saving a lot of time. In the end, it also generates a graph allowing for advanced visualization of the current scenario.
 
 ## How it works?
 It works by traversing all the groups and models in an ARIS database using Selenium, building a tree-like structure in a local SQLite database. After that, you will be able to choose to download those models in .png or .pdf.
